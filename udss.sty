@@ -37,10 +37,12 @@
 
 %\useoutertheme{default}
 %\useinnertheme[shadow=true]{rounded}
-\xdefinecolor{logo}{RGB}{128,0,0}  %RGB#800000
-\setbeamercolor{footline}{bg=logo}
-\setbeamercolor{frametitle}{bg=logo,fg=white}
-\setbeamercolor{title}{bg=logo}
+\xdefinecolor{red_logo}{RGB}{136,5,7}
+\xdefinecolor{grey_logo}{RGB}{51,51,51}
+
+\setbeamercolor{footline}{bg=red_logo}
+\setbeamercolor{frametitle}{bg=red_logo,fg=white}
+\setbeamercolor{title}{bg=red_logo}
 \setbeamerfont{frametitle}{size=\large}
 %\setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{bibliography item}[text]
@@ -52,23 +54,24 @@
 \setbeamercolor{palette quaternary}{fg=white,bg=structure.fg!50!black}
 %\setbeamercolor*{sidebar}{use=structure,bg=structure.fg}
 \setbeamercolor{titlelike}{parent=palette primary}
+\setbeamercolor{normal text}{fg=grey_logo}
 
 %% try
-\setbeamercolor{block title}{bg=logo,fg=white}
-\setbeamercolor*{block title example}{use={normal text,example text},bg=white,fg=logo}
+\setbeamercolor{block title}{bg=red_logo,fg=white}
+\setbeamercolor*{block title example}{use={normal text,example text},bg=white,fg=red_logo}
 \setbeamercolor{fine separation line}{}
 \setbeamercolor{item projected}{fg=white}
 \setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
 \setbeamercolor{palette sidebar quaternary}{use=structure,fg=structure.fg}
 \setbeamercolor{palette sidebar secondary}{use=structure,fg=structure.fg}
 \setbeamercolor{palette sidebar tertiary}{use=normal text,fg=normal text.fg}
-%\setbeamercolor{palette sidebar quaternary}{fg=white}
+\setbeamercolor{palette sidebar quaternary}{fg=white}
 \setbeamercolor{section in sidebar}{fg=brown}
 \setbeamercolor{section in sidebar shaded}{fg=grey}
 \setbeamercolor{separation line}{}
-\setbeamercolor{sidebar}{bg=logo}
+\setbeamercolor{sidebar}{bg=red_logo}
 \setbeamercolor{sidebar}{parent=palette primary}
-\setbeamercolor{structure}{fg=logo}
+\setbeamercolor{structure}{fg=red_logo}
 \setbeamercolor{subsection in sidebar}{fg=brown}
 \setbeamercolor{subsection in sidebar shaded}{fg=grey}
 \AtBeginSection[]{
