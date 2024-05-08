@@ -14,19 +14,19 @@
 \setbeamertemplate{footline} 
   {%
     \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+
     \end{beamercolorbox}
-    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex, leftskip=7pt]{author in head/foot}%
-      % leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%]
+
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex, leftskip=7pt, rightskip=7pt]{author in head/foot}%
       \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
-      \hfill%
-      % {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+      \hfill Department of Data Science%
     \end{beamercolorbox}%
-    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex, leftskip=7pt, rightskip=7pt]{title in head/foot}%
-      % leftskip=.3cm,rightskip=.3cm plus1fil]
-      {\usebeamerfont{title in head/foot}\insertshorttitle}%
-      \hfill%
-      {\usebeamerfont{frame number}\usebeamercolor[fg]{frame number}\insertframenumber~\frameofframes~\inserttotalframenumber}
+
+    \setbeamercolor{coloredfoot}{fg=white,bg=grey_logo}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex, leftskip=7pt, rightskip=7pt]{coloredfoot}%
+      UIT Data Science Society \hfill University of Information Technology, VNU-HCM
     \end{beamercolorbox}%
+    
     \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
     
     \end{beamercolorbox}
